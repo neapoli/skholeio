@@ -1,9 +1,9 @@
 {
-    "name": "neapoli/scholeio",
+    "name": "neapoli/skholeio",
     "type": "drupal-theme",
-    "description": "Scholeío è un sub-theme drupal, basato sul tema Skenografia, che implementa il design delle scuole.",
-    "keywords": ["Drupal", "theme", "Scholeío", "Skenografia", "sub-theme"],
-    "homepage": "https://github.com/neapoli/scholeio",
+    "description": "Skholeio è un sub-theme drupal, basato sul tema Skenografia, che implementa il design delle scuole.",
+    "keywords": ["Drupal", "theme", "Skholeio", "Skenografia", "sub-theme"],
+    "homepage": "https://github.com/neapoli/skholeio",
     "license": "AGPL-3.0-only",
     "authors": [
         {
@@ -13,8 +13,8 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/neapoli/scholeio/issues",
-        "source": "https://github.com/neapoli/scholeio"
+        "issues": "https://github.com/neapoli/skholeio/issues",
+        "source": "https://github.com/neapoli/skholeio"
     },
     "require": {
         "drupal/core": "^10",

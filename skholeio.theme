@@ -11,7 +11,7 @@ use Drupal\bootstrap_italia\Helper\Suggestions;
  * Implements hook_theme_suggestions_HOOK_alter().
  * https://www.drupal.org/docs/develop/theming-drupal/creating-sub-themes#s-inheriting-block-templates
 */
-function scholeio_theme_suggestions_node_alter(array &$suggestions, array $variables): void {
+function skholeio_theme_suggestions_node_alter(array &$suggestions, array $variables): void {
   if (in_array('node__type_page__view_mode_full', $suggestions, TRUE)) {
     $current_path = \Drupal::service('path.current')->getPath();
     $path = Suggestions::sanitize(Drupal::service('path_alias.manager')->getAliasByPath($current_path));

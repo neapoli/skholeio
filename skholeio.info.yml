@@ -1,6 +1,6 @@
-name: "Scholeío"
+name: "Skholeio"
 type: theme
-description: "Scholeío sub-theme è un tema Drupal basato su Skenografia. Creato per fare le varie personalizazioni senza modificare il tema originale."
+description: "Skholeio sub-theme è un tema Drupal basato su Skenografia. Creato per fare le varie personalizazioni senza modificare il tema originale."
 core_version_requirement: ^10 || ^11
 base theme: skenografia
 version: 2.36.3
