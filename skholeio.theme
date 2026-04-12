@@ -19,6 +19,15 @@ function skholeio_theme_suggestions_node_alter(array &$suggestions, array $varia
   }
 }
 
+/**
+ * Implements hook_page_attachments_alter().
+ */
+function skholeio_page_attachments_alter(array &$attachments): void {
+  if (theme_get_setting('custom_css_enabled')) {
+    $attachments['#attached']['library'][] = 'skholeio/custom-styles';
+  }
+}
+
 // Include all files from the includes directory.
 $includes_path = __DIR__ . '/includes/*.inc';
 foreach (glob($includes_path) as $filename) {
