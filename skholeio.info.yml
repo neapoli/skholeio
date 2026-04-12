@@ -3,7 +3,7 @@ type: theme
 description: "Skholeio sub-theme è un tema Drupal basato su Skenografia. Creato per fare le varie personalizazioni senza modificare il tema originale."
 core_version_requirement: ^10 || ^11
 base theme: skenografia
-version: 2.36.3
+version: 2.40.0
 
 regions:
   page_top: "Page top" # Don't remove
