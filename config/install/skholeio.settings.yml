@@ -100,7 +100,7 @@ table_hover: 0
 table_bordered: 0
 table_border_color: ''
 table_borderless: 0
-table_sm: 0
+table_sm: 1
 table_align_middle: 0
 table_thead_variant: dark
 table_caption_top: 1
@@ -119,7 +119,7 @@ pager_jump_to_page: 0
 pager_show_first_last_page_link: 1
 pager_text_controls: 0
 pager_show_total_pages: 0
-forms_field_label_required_mark: 0
+forms_field_label_required_mark: 1
 forms_action_alignment: left
 forms_action_spacing: 1
 footer_container_type: container
@@ -133,7 +133,9 @@ libraries_cdn_minified: 1
 libraries_cdn_fonts: ''
 libraries_cdn_icons: /libraries/ouitoulia-skenografia/svg/sprites.svg
 pa_website_validator_type: school
-privacy_policy: null
+privacy_policy:
+  -
+    target_id: '916'
 threads: ''
 breadcrumb_include_current_page: 0
-custom_css_enabled: 0
+custom_css_enabled: 1
