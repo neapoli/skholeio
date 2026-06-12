@@ -22,3 +22,11 @@ section.it-footer-main {
 .it-header-navbar-wrapper.theme-light-desk .navbar .navbar-collapsable .navbar-nav li a.nav-link.active {
   border-bottom-color:#0059b3;
 }
+
+/*Impostazioni CSS per il blocco intestazioni prima pagina*/
+@media (min-width: 992px) {
+  .view-prima-pagina-slide-intestazione .splide .splide__track{
+    background: #fff;
+    height: 434px;
+  }
+}
