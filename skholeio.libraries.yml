@@ -3,3 +3,9 @@ custom-styles:
   css:
     theme:
       css/custom.css: {}
+
+custom-styles-2:
+  version: 1.x
+  css:
+    theme:
+      css/custom2.css: {}

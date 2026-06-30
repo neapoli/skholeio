@@ -23,10 +23,16 @@ function skholeio_form_system_theme_settings_alter(array &$form, FormStateInterf
     '#weight' => 100,
   ];
 
-  $form['custom_styles']['custom_css_enabled'] = [
-    '#type' => 'checkbox',
-    '#title' => t('Abilita CSS personalizzato'),
-    '#description' => t('Carica il file <code>css/custom.css</code> del tema Skholeio.'),
-    '#default_value' => theme_get_setting('custom_css_enabled'),
+  $form['custom_styles']['custom_css_variant'] = [
+    '#type' => 'radios',
+    '#title' => t('CSS personalizzato da caricare'),
+    '#description' => t('Carica un solo foglio di stile personalizzato del tema Skholeio.'),
+    '#options' => [
+      '0' => t('Default (nessun CSS personalizzato, grafica originale del tema)'),
+      '1' => t('CSS personalizzato (<code>css/custom.css</code>)'),
+      '2' => t('CSS personalizzato 2 (<code>css/custom2.css</code>)'),
+    ],
+    // Default a '1' per preservare il comportamento storico (custom.css).
+    '#default_value' => theme_get_setting('custom_css_variant') ?? '1',
   ];
 }

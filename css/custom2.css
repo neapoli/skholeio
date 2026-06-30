@@ -1,0 +1,63 @@
+/*** Impostazione per la parte alta del sito, barra dove c'è il link al Ministero Istruzione  ***/
+.it-header-slim-wrapper {
+  background: #155c8c;
+}
+
+/*** Impostazioni CSS per il menù secondario ***/
+.it-header-navbar-wrapper.theme-light-desk .navbar .dropdown-menu,
+.it-header-navbar-wrapper.theme-light-desk .navbar .dropdown-menu:before {
+  background: #155c8c;
+}
+.it-header-navbar-wrapper.theme-light-desk .navbar .navbar-collapsable .navbar-nav li a.nav-link.active {
+  border-bottom-color: #155c8c;
+}
+
+/*** Impostazione per il banner parte sinistra in Home Page  ***/
+#it-page-front .bg-redbrown {
+  background-color: #155c8c !important;
+}
+#it-page-front .section-hero-left {
+  background: linear-gradient(90deg, #155c8c 0, #ab2b3e);
+}
+
+/*** Impostazioni CSS per il blocco Slide intestazioni prima pagina ***/
+@media (min-width: 992px) {
+  .view-prima-pagina-slide-intestazione .splide .splide__track {
+    background: #fff;
+    height: 434px;
+  }
+}
+
+/*** Impostazione per sezione DIDATTICA in Home Page ***/
+.bg-bluelectric-dark.view-primo-livello-didattica {
+  background-color: #1da9d0 !important;
+}
+.view-primo-livello-didattica .container .bg-bluelectric {
+  background-color: #0e2b61 !important;
+  border: none;
+}
+.view-primo-livello-didattica .container .nav-tabs.nav-dark{
+  background-color: #1da9d0 !important;
+}
+.view-primo-livello-didattica .container .nav-tabs.nav-dark .nav-link.active {
+  background-color: #0e2b61 !important;
+}
+.view-primo-livello-didattica .accordion-item,
+.view-primo-livello-didattica .accordion-collapse {
+  background-color: #0e2b61 !important;
+  border: none;
+}
+.view-primo-livello-didattica .accordion-item {
+  border-color: #0e2b61;
+}
+
+/*** Impostazione per il Footer ***/
+div.it-footer-main {
+  background-color: #155c8c;
+}
+.it-footer-small-prints {
+  background-color: #0e3d5d;
+}
+section.it-footer-main {
+  background-color: #0e3d5d;
+}

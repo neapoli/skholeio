@@ -23,8 +23,13 @@ function skholeio_theme_suggestions_node_alter(array &$suggestions, array $varia
  * Implements hook_page_attachments_alter().
  */
 function skholeio_page_attachments_alter(array &$attachments): void {
-  if (theme_get_setting('custom_css_enabled')) {
+  // Default a '1' per preservare il comportamento storico (custom.css).
+  $variant = theme_get_setting('custom_css_variant') ?? '1';
+  if ($variant === '1') {
     $attachments['#attached']['library'][] = 'skholeio/custom-styles';
+  }
+  elseif ($variant === '2') {
+    $attachments['#attached']['library'][] = 'skholeio/custom-styles-2';
   }
 }
 

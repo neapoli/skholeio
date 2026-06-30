@@ -1,17 +1,6 @@
+/*** Impostazione per la parte alta del sito, barra dove c'è il link al Ministero Istruzione  ***/
 .it-header-slim-wrapper {
   background: #0059b3;
-}
-
-div.it-footer-main {
-  background-color: #004d99;
-}
-
-.it-footer-small-prints {
-  background-color: #036;
-}
-
-section.it-footer-main {
-  background-color: #036;
 }
 
 /*Impostazioni CSS per il menù secondario*/
@@ -29,4 +18,15 @@ section.it-footer-main {
     background: #fff;
     height: 434px;
   }
+}
+
+/*** Impostazione per il Footer ***/
+div.it-footer-main {
+  background-color: #004d99;
+}
+.it-footer-small-prints {
+  background-color: #036;
+}
+section.it-footer-main {
+  background-color: #036;
 }
