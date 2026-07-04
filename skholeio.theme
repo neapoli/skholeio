@@ -31,6 +31,9 @@ function skholeio_page_attachments_alter(array &$attachments): void {
   elseif ($variant === '2') {
     $attachments['#attached']['library'][] = 'skholeio/custom-styles-2';
   }
+  elseif ($variant === '3') {
+    $attachments['#attached']['library'][] = 'skholeio/custom-styles-3';
+  }
 }
 
 // Include all files from the includes directory.

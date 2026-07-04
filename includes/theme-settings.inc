@@ -31,6 +31,7 @@ function skholeio_form_system_theme_settings_alter(array &$form, FormStateInterf
       '0' => t('Default (nessun CSS personalizzato, grafica originale del tema)'),
       '1' => t('CSS personalizzato (<code>css/custom.css</code>)'),
       '2' => t('CSS personalizzato 2 (<code>css/custom2.css</code>)'),
+      '3' => t('CSS personalizzato 3 (<code>css/custom3.css</code>)'),
     ],
     // Default a '1' per preservare il comportamento storico (custom.css).
     '#default_value' => theme_get_setting('custom_css_variant') ?? '1',
